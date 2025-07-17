@@ -37,5 +37,5 @@ searchInput.addEventListener('keyup',filterProduct);
 categoryBtn.forEach(btn=>{
   btn.addEventListener('click',setCategory);
 
-})
+});
 filterProduct();
